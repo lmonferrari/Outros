@@ -6,7 +6,6 @@ namespace Exercicio2
     {
         static void Main(string[] args)
         {
-
             //claro que o programa da pra ficar muito mais optimizado
             //mas eu não sei o que você ja viu então tentei deixar 
             //sem ferramentas complexas
@@ -24,7 +23,6 @@ namespace Exercicio2
                 var input = Convert.ToInt32(Console.ReadLine());
 
                 if (input >= 0) contadorDePositivos++;
-
 
                 if (contadorDePositivos == 4)
                     Console.WriteLine("Este e o seu ultimo numero positivo.");
@@ -61,21 +59,15 @@ namespace Exercicio2
 
             //imprimindo vetor
             for (int i = 0; i < A.Length; i++)
-            {
                 Console.WriteLine("VETOR A : " + A[i]);
-            }
 
             //imprimindo vetor
             for (int i = 0; i < indexMenorQueZero; i++)
-            {
                 Console.WriteLine("VETOR B : " + B[i]);
-            }
 
             //imprimindo vetor
             for (int i = 0; i < indexMaiorQueZero; i++)
-            {
                 Console.WriteLine("VETOR C : " + C[i]);
-            }
         }
     }
 }
